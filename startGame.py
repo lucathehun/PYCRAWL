@@ -18,8 +18,12 @@ try:
 except (json.JSONDecodeError, FileNotFoundError):
     playerData = default_player_data
 
+restart = input('''
+do you want to resart?
+[Y]|[N]: ''').upper()
+
 # Execute the appropriate Python file based on the game stage
-if playerData['gameStage'] == '':
+if restart == 'Y' or playerData['gameStage'] == '': 
     # Get the directory of the current script (startGame.py)
     dir_path = os.path.dirname(os.path.abspath(__file__))
 
