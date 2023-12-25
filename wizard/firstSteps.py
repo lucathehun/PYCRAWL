@@ -5,7 +5,7 @@ import json
 with open("playerData.txt", "r") as file:
     playerData = json.load(file)
 
-playerData['gameStage']='/wizard/firstSteps.py'
+playerData['gameStage']='wizard/firstSteps.py'
 
 print('''
 Story idk yet.
