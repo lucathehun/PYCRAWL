@@ -1,1 +1,1 @@
-{"playerGender": "N", "playerName": "luca", "playerClass": "W", "playerEquiptment": ["staff", "mysteryPotion"], "gameStage": "wizard/firstSteps.py"}
+{"playerGender": "N", "playerName": "LUCA", "playerClass": "W", "playerEquiptment": ["book", "mysteryPotion"], "gameStage": "wizard/firstSteps.py"}
